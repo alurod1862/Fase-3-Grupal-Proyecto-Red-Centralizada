@@ -274,7 +274,8 @@ function mostrarMenu
      
      Write-Host "1. Gestión de administradores parciales" 
      Write-Host "2. Gestión de plantillas de Admin.Parciales" 
-     Write-Host "3. Deshabilitar cuentas" 
+     Write-Host "3. Habilitar cuentas"
+     Write-Host "4. Deshabilitar cuentas"  
      Write-Host "s. Presiona 's' para salir" 
 }
 
@@ -293,6 +294,12 @@ do
                 mostrar_submenu2
                 pause      
            } '3' {
+                Clear-Host
+                $user=Read-Host "Escribe el nombre de la cuenta a habilitar"
+                Enable-ADAccount -Identity "CN=$user, CN=Users,DC=UPV,DC=ES"
+                return
+                pause
+           } '4' {
                 Clear-Host
                 $user=Read-Host "Escribe el nombre de la cuenta a deshabilitar"
                 Disable-ADAccount -Identity "CN=$user, CN=Users,DC=UPV,DC=ES"
