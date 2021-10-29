@@ -1,0 +1,11 @@
+﻿Name:Description:Group
+Opers. de cuentas:Los miembros pueden administrar cuentas de usuario y de grupo del dominio.:UPV_GG1
+Operadores de copia de seguridad:Los operadores de copia de seguridad pueden invalidar restricciones de seguridad con el único propósito de hacer copias de seguridad o restaurar archivos.:UPV_GG1
+Creadores de confianza de bosque de entrada:Los miembros de este grupo pueden crear confianza de entrada unidireccional a este bosque:UPV_GG1
+Opers. de cuentas:Los miembros pueden administrar cuentas de usuario y de grupo del dominio.:UPV_GG1
+Storage Replica Administrators:Los miembros de este grupo tienen acceso completo y sin restricciones a todas las características de la réplica de almacenamiento.:UPV_GG2
+Duplicadores:Pueden replicar archivos en un dominio:UPV_GG2
+Opers. de impresión:Los miembros pueden administrar impresoras instaladas en controladores de dominio:UPV_GG2
+DnsAdmins:Grupo de administradores de DNS:UPV_GG2
+IIS_IUSRS:Grupo integrado usado por Internet Information Services.:UPV_GG2
+Usuarios del monitor de sistema:Los miembros de este grupo tienen acceso a los datos del contador de rendimiento de forma local y remota:UPV_GG2

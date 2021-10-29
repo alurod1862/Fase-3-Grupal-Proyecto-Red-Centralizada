@@ -1,0 +1,33 @@
+﻿Administrador Parcial 1: Podrá realizar tareas de:
+Crear, modificar y eliminar cuentas de usuarios, equipos, grupos y Unidades Organizativas del dominio. 
+-Opers de cuentas
+
+Realizar copias de seguridad y restaurar todos los archivos 
+-Operadores de copias de seguridad
+
+
+Crear relaciones de confianza de entrada entre bosques.
+-Creadores de confianza de bosques de entrada
+
+Apagar y/o reiniciar el equipo.
+-Administradores,Opers de servidores;Opers de impresión,Operadores de copias de seguridad
+
+Administrador Parcial 2: Podrá realizar tareas de:
+Replicación de los archivos del sistema.
+-Storage Replica Administrador
+-Duplicadores
+
+Gestión y configuración de impresoras dentro de un sistema.
+		-Opers de impresion
+
+Administración del servicio DNS.
+DnsAdmins
+
+Gestionar el rol IIS (web corporativa).
+-IIS_IUSRS
+
+Supervisar los contadores de rendimiento de un equipo.
+-Usuarios del monitor de sistema
+
+Apagar y/o reiniciar el equipo.
+-Administradores,Opers de servidores;Opers de impresión,Operadores de copias de seguridad
